@@ -1,0 +1,62 @@
+# Git ignore rules for MiniMuseumVR
+# The Unity project lives in the VR/ subfolder, so patterns use **/ to match at any depth.
+# Based on https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# --- Unity generated folders ---
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings*/
+
+# --- Builds ---
+**/[Bb]uild*/
+**/*.apk
+**/*.aab
+**/*.unitypackage
+
+# --- Android build temp ---
+**/.gradle/
+**/.utmp/
+
+# --- Paid Asset Store content (cannot be redistributed) ---
+**/Museum_VR_European _Sculpture_Pack/
+**/Museum_VR_European _Sculpture_Pack.meta
+
+# --- IDE / solution files ---
+**/.vs/
+**/.idea/
+**/.consulo/
+**/ExportedObj/
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.suo
+**/*.tmp
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.booproj
+**/*.svd
+**/*.pdb
+**/*.mdb
+**/*.opendb
+**/*.VC.db
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# --- Unity generated files ---
+**/*.pidb.meta
+**/*.pdb.meta
+**/*.mdb.meta
+**/sysinfo.txt
+**/crashlytics-build.properties
+**/[Aa]ssets/AutoSave*
+**/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+**/[Aa]ssets/[Ss]treamingAssets/aa.meta
+**/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- Archives ---
+**/*.zip
+**/*.7z
